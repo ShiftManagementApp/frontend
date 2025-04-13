@@ -32,7 +32,7 @@ export const authOptions: NextAuthOptions = {
       if (!user?.email) return false;
     
       try {
-        const url = `${process.env.FLASK_ENDPOINT}/users/email/${encodeURIComponent(user.email)}`;
+        const url = `${process.env.FLASK_ENDPOINT}/api/users/email/${encodeURIComponent(user.email)}`;
     
         const res = await axios.get(url);
         console.log("Flaskの確認結果:", res.status);
