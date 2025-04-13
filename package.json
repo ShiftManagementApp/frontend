@@ -39,6 +39,7 @@
   "devDependencies": {
     "@eslint/eslintrc": "^3",
     "@netlify/next": "^1.4.9",
+    "@netlify/plugin-nextjs": "^5.10.5",
     "@tailwindcss/postcss": "^4",
     "@types/axios": "^0.9.36",
     "@types/node": "^20",
